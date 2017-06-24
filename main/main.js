@@ -42,7 +42,7 @@ class Sequence {
     for(var i=0;i<this.length;i++) {
       sum += this.input[i];
     }
-    return (sum / this.length);
+    return (sum / this.length).toFixed(2);
   }
 
 
