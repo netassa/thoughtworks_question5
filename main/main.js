@@ -11,8 +11,8 @@ module.exports = function main() {
 class Sequence {
   constructor(input) {
     // Write your code here
-    var this.input = input;
-    var this.length = input.length;
+    this.input = input;
+    this.length = input.length;
   }
 
   minimum() {
